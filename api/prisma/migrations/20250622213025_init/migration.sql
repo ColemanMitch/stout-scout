@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Patron" ADD COLUMN     "birthday" TIMESTAMP(3),
+ADD COLUMN     "loyaltyProgramJoinedAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP;
